@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>weather</title>
+	<link rel="stylesheet" type="text/css" href="weathernew.css">
+</head>
+<body>
+	<h2>Weather App</h2>
+	<!-- <div class="text"> -->
+	      
+		<input type="text" id="cityname" placeholder="Enter city" > 
+		<input type="button" value=" &#128269;" onclick="fetchData()" class="button">
+	<!-- </div> -->
+	<!-- <h2>Weather App</h2><br> -->
+	<div class="container">
+		<!-- <input type="text" class="searchbar" placeholder="Enter city"> -->
+		<div class="weather-app">
+			<h3 id="ct"><span id="city"></span></h3>
+			<div id="temprature" ><span id="temp"></span></div>
+			<div class="image"></div>
+			<div id="desc">dsc<span id="description"></span></div>
+			<div id="wp">windspeed :<span id="windspeed"></span>m/hr</div>
+			<div id="hum">humidity :<span id="humidity"></span>Oc</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="Weather.js"></script>
+</body>
+</html>
