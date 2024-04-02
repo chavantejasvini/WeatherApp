@@ -1,0 +1,120 @@
+body{
+	background-image: url("https://img.freepik.com/premium-vector/winter-landscape-background_54887-69.jpg?w=1380");
+	background-size: cover;
+}
+.container{
+	height: 95vh;
+	width: 100%;
+	background-size: cover;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+}
+.weather-app{
+	height: 250px;
+	width: 700px;
+	background-color: white;
+	position: fixed;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 400px;
+	background-color: rgba(103, 245, 214, 0.550);
+}
+#cityname{
+	height: 45px;
+	width: 630px;
+	background-color: rgba(103, 245, 214, 2.0);
+	border: none;
+	outline: none;
+	font-size: 20px;
+	transition: 0.5s;
+	margin-top: 170px;
+	margin-left: 407px;
+	border-radius: 10px;
+	padding-left: 20px;
+
+}
+.button{
+	height: 50px;
+	width: 50px;
+	border: none;
+	outline: none;
+	position: absolute;
+	background-color: transparent;
+	margin-top: 170px;
+	size: 50px;
+}
+h2{
+	position: fixed;
+	margin-top: -45px;
+	margin-left: 410px;
+	font-weight: unset;
+	font-family: cursive;
+}
+.image{
+	height: 150px;
+	width: 150px;
+	background-color: transparent;
+	margin-top: 80px;
+	margin-left: 20px;
+	background-image:  url("https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-8.png");
+	background-size: cover;
+	transition: 0.7s;
+}
+.image:hover{
+	scale: 1.2;
+}
+
+#ct{
+	height: 50px;
+	width: 150px;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 180px;
+	font-family: cursive;
+	background-color: transparent;
+}
+#temprature{
+	height: 100px;
+	width: 200px;
+	background-color: transparent;
+	position: absolute;
+	margin-left: 160px;
+	margin-top: 70px;
+	padding-left: 50px;
+	padding-top: 25px;
+	font-size: 70px;
+	overflow: hidden;
+
+}
+#desc{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 220px;
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: transparent;
+	height: 50px;
+	width: 150px;
+}
+#wp{
+	position: absolute;
+	margin-top: -0px;
+	margin-left: 500px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#hum{
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 505px;
+	font-weight: bold;
+	font-size:40px;
+	height: 50px;
+	width: 150px;
+	padding: 0px;
+}
+
